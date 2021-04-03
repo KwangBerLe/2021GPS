@@ -23,7 +23,7 @@ public class EnemySpawner : MonoBehaviour
     {
         if (isPlaying)
         {
-            int spawnPer = Random.Range(0, 101);
+            int spawnPer = Random.Range(0, 501);
             if (spawnPer < 10)
             {
                 Enemy e = Instantiate(enemy);
